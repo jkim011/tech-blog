@@ -1,11 +1,11 @@
 <div class="card">
-  <div class="card-header ">
+  <div class="card-header flex-row justify-space-between">
     <h2>
       <a href="/post/{{post.id}}">
         <div>{{post.postTitle}}</div>
       </a>
     </h2>
-    <div>posted by {{post.user.username}} on {{format_date post.dateCreated}}</div>
+    <div class="col-3">posted by {{post.user.username}} on {{format_date post.dateCreated}}</div>
   </div>  
 
   <p class="card-body">
@@ -26,7 +26,7 @@
   <div class="comments">
     {{#each post.comments as |comment|}}
       <div>
-        <p>
+        <p class="card-body2">
         {{commentContent}} - {{user.username}} {{format_date dateCreated}}
         </p>
       </div>
