@@ -22,10 +22,10 @@
   ## Usage
   * Use deployed link: https://jareds-tech-blog.herokuapp.com/ <br> 
   * Or to run on localhost: 
-        1. ```mysql -u root -p``` and login to MySql
-        2. ```SOURCE db/schema.sql``` to use the database, then exit  
-        3. ```node seeds/index.js``` to implement seeded data  
-        4. ```npm start``` 
+   1.  ```mysql -u root -p``` and login to MySql 
+   2. ```SOURCE db/schema.sql``` to use the database, then exit  
+   3. ```node seeds/index.js``` to implement seeded data  
+   4. ```npm start``` 
   
   ## Technologies
   * JavaScript
