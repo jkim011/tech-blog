@@ -13,6 +13,7 @@
   * [Questions](#questions)
   
   ## Description
+  ![techblog](https://user-images.githubusercontent.com/112585959/221392415-0bfd1afe-7345-44d8-bf99-537e1ee1408b.PNG)
   This application is a blog site where developers can read and write about technical concepts, recent advancements, and new technologies. Users can create an account and sign in to comment on posts as well. This app was built following the MVC structure, using Handlebars.js for the front end, and javascript for the back end. MySQL is used for the database. 
 
   ## Installation
